@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Install necessary large dependencies like PyTorch here
+echo "Installing PyTorch"
+pip install torch==2.4.0+cpu --find-links https://download.pytorch.org/whl/cpu

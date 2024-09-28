@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Custom Buildpack for Dreamhouse AI"
