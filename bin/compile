@@ -1,5 +1,9 @@
 #!/bin/bash
 
-# Install necessary large dependencies like PyTorch here
+# This script installs necessary dependencies, like PyTorch, using pip.
+
+# Print message indicating the installation of PyTorch is starting
 echo "Installing PyTorch"
-torch==2.4.1 --find-links https://download.pytorch.org/whl/torch_stable.html
+
+# Install PyTorch using pip and specify the version and link for CPU-only packages
+pip install torch==2.4.1+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
