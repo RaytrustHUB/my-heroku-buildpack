@@ -6,4 +6,4 @@
 echo "Installing PyTorch"
 
 # Install PyTorch using pip and specify the version and link for CPU-only packages
-pip install torch==2.4.1+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
+pip install torch==2.4.1 --find-links https://download.pytorch.org/whl/torch_stable.html
